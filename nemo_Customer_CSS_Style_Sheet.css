@@ -1,0 +1,45 @@
+/*
+    LARGE HOME PAGE Overall Home Page Wrapper CSS >>>>>>>>>>>>>
+*/
+.home_wrapper
+{
+    display: grid;
+    grid-template-areas:
+        "home_left home_header home_header"
+        "home_left home_content home_content"
+        "home_left home_footer home_footer";
+
+    grid-template-rows: 0.5fr auto 1fr;
+    grid-template-columns: 200px auto;
+
+
+
+    /* grid-row-gap: 5px; */
+    grid-column-gap: 5px;
+    margin: 0;
+
+   background: linear-gradient(rgba(255,255,255,.98), rgba(255,255,255,.98)), alt="JackBord_Block3_PCB_bk_Image_ver1c_20_Feb_2021_idx1.png";
+    background-repeat: repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+
+
+    /* 10 April 2020 */
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/*
+    Home Page Content CSS
+*/
+.home_content
+{
+    grid-area: home_content;
+    min-height:75em;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
